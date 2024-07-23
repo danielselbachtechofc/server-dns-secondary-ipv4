@@ -2,7 +2,7 @@
 This script sets up a secondary DNS server using BIND 9 on Debian 12. It configures the server to act as a slave for specified zones.
 
 ## Usage
-Replace placeholders in `server-dns-secondary-ipv4.sh` with your actual server details:
+Replace placeholders in `setup-dns-server-secondary.sh.sh` with your actual server details:
 
 `[YOUR_SERVER_IP]`
 `[FORWARDER_1_IP], [FORWARDER_2_IP]`
@@ -18,10 +18,10 @@ Replace placeholders in `server-dns-secondary-ipv4.sh` with your actual server d
 `cd server-dns-secondary-ipv4`
 
 2. Make the script executable:
-`chmod +x server-dns-secondary-ipv4.sh`
+`chmod +x setup-dns-server-secondary.sh.sh`
 
 3. Run the script as root:
-`sudo ./server-dns-secondary-ipv4.sh`
+`sudo ./setup-dns-server-secondary.sh.sh`
 
 4. Verify the DNS server is working:
 `nslookup google.com 127.0.0.1`
