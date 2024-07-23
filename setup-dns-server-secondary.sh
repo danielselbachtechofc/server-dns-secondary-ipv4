@@ -83,8 +83,8 @@ echo "[+] Restarting BIND service"
 systemctl restart bind9
 systemctl enable bind9
 
-echo "###################################################################"
-echo "## Secondary DNS Server configuration complete.                  ##"
+echo "####################################################################"
+echo "## Secondary DNS Server configuration complete.                   ##"
 echo "## Ensure you adjust your firewall settings to allow DNS traffic. ##"
 echo "## Test your DNS server with tools like dig or nslookup.          ##"
-echo "###################################################################"
+echo "####################################################################"
