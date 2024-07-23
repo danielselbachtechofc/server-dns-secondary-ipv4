@@ -2,7 +2,7 @@
 This script sets up a secondary DNS server using BIND 9 on Debian 12. It configures the server to act as a slave for specified zones.
 
 ## Usage
-Replace placeholders in `setup-dns-server-secondary.sh.sh` with your actual server details:
+Replace placeholders in `setup-dns-server-secondary.sh` with your actual server details:
 
 `[YOUR_SERVER_IP]`
 `[FORWARDER_1_IP], [FORWARDER_2_IP]`
