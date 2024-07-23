@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#########################################################################################
+# DANIEL S. FIGUEIRÓ                                                                    #
+# NETWORK SPECIALIST                                                                    #
+# E-MAIL: danielselbach.fig@gmail.com                                                   #
+# Script V.: 1.0 - BIND9                                                                #
+#########################################################################################
+
 echo "[+] Checking for root permissions"
 if [ "$EUID" -ne 0 ]; then
     echo "Please run this script as root"
