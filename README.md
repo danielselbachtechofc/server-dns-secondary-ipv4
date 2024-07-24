@@ -5,11 +5,13 @@ This script sets up a secondary DNS server using BIND 9 on Debian 12. It configu
 Replace placeholders in `setup-dns-server-secondary.sh` with your actual server details:
 
 `[YOUR_SERVER_IP]`
-`[FORWARDER_1_IP], [FORWARDER_2_IP]`
 `[YOUR_DOMAIN]`
 `[REVERSE_ZONE]`
+`[FORWARDER_1_IP]`
+`[FORWARDER_2_IP]`
 `[SERIAL_NUMBER]`
-`[MASTER_DNS_IP]`
+`[LAST_OCTET]`
+`[MASTER_SERVER_IP]`
 
 ## Steps:
 
