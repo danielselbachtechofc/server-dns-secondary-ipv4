@@ -16,14 +16,14 @@ Replace placeholders in `setup-dns-server-secondary.sh` with your actual server 
 ## Steps:
 
 1. Clone the repository and navigate to the directory:
-`git clone https://github.com/danielselbachtechofc/server-dns-secondary-ipv4`
+`git clone https://github.com/danielselbachtechofc/server-dns-secondary-ipv4.git`
 `cd server-dns-secondary-ipv4`
 
 2. Make the script executable:
-`chmod +x setup-dns-server-secondary.sh.sh`
+`chmod +x setup-dns-server-secondary.sh`
 
 3. Run the script as root:
-`sudo ./setup-dns-server-secondary.sh.sh`
+`sudo ./setup-dns-server-secondary.sh`
 
 4. Verify the DNS server is working:
 `nslookup google.com 127.0.0.1`
