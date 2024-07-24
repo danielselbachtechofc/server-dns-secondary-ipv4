@@ -16,7 +16,7 @@ fi
 
 # Requesting information from the user
 read -p "Enter your server IP: " SERVER_IP
-read -p "Enter your domain (e.g., flashtech.local): " DOMAIN
+read -p "Enter your domain (e.g., example.com): " DOMAIN
 read -p "Enter the reverse zone (e.g., 30.200.10): " REVERSE_ZONE
 read -p "Enter the forwarder 1 IP: " FORWARDER_1_IP
 read -p "Enter the forwarder 2 IP: " FORWARDER_2_IP
