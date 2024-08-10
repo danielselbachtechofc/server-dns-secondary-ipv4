@@ -2,9 +2,9 @@
 
 #########################################################################################
 # DANIEL S. FIGUEIRÓ                                                                    #
-# NETWORK SPECIALIST                                                                    #
-# E-MAIL: danielselbach.fig@gmail.com                                                   #
-# Script V.: 1.0 - BIND9                                                                #
+# IT CONSULTANT                                                                         #
+# LINKEDIN: https://www.linkedin.com/in/danielselbachtech/                              #
+# SCRIPT V.: 1.0 - BIND9                                                                #
 #########################################################################################
 
 # Check root permissions
